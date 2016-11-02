@@ -17,4 +17,5 @@ notifications:
   email:
     -  nstepanovdev@gmail.com
 
-script: phpunit -c app --verbose --colors --no-globals-backup
+script:
+  - phpunit -c app --verbose --colors --no-globals-backup
